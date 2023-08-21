@@ -8,7 +8,7 @@ import { Contact } from './contact';
 })
 export class ContactService {
 
-  private baseUrl="http://a220099df78144a52a788e1903ef5063-730470645.us-east-1.elb.amazonaws.com"
+  private baseUrl="http://a7f2bc0133e5c4185be7f1aba62999bf-1913869913.us-east-1.elb.amazonaws.com/contacts"
 
   constructor(private httpClient:HttpClient) { }
 
